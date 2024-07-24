@@ -1,0 +1,47 @@
+a:visited{
+    color: black;
+}
+
+a:hover{
+    background-color: green;
+    text-decoration: none;
+
+}
+a:link{
+    color: dodgerblue;
+}
+a:active{
+    background-color: blue;
+}
+
+
+
+h1::first-letter{
+    color: blueviolet;
+    /*font-size: 4rem;*/
+}
+p::first-line{
+  color:blue  
+
+}
+li::marker{
+    content: "🎃";
+}
+p::selection,h1::selection{
+    background-color: red;
+    color:blue;
+
+}
+h1::after{
+    content: "🌞";
+}
+h1::before{
+    content: "🌷";
+}
+p:hover{
+    background-color: blueviolet;
+}
+iframe{
+    width: 500px;
+    height: 500px;
+}
